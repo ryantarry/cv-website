@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  /* background-image: url("media/background.jpg"); */
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #333;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+  max-width: 60rem;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+header {
+  padding: 0px;
+  margin-top: 10px;
+}
+
+header img {
+  height: 180px;
+  z-index: 2;
+}
+
+h1 {
+  display: none;
+}
+h2 {
+  text-decoration: none;
+  font-family: "Permanent Marker", curssive;
+  line-height: 5px;
+}
+h3,
+h4 {
+  font-family: "Rubik", sans-serif;
+  text-decoration: underline;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+a:link {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(95, 95, 95);
+}
+
+a:hover {
+  color: rgb(10, 153, 172);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+fieldset {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10%;
+}
+
+footer {
+  color: white;
+}
+
+nav {
+  background-color: rgb(16, 119, 160);
+  text-align: center;
+  top: 100%;
+  left: 0;
+  padding: 1em 0;
+}
+
+nav ul {
+  width: 374px;
+  margin: 0 auto;
+}
+
+nav li {
+  margin-left: 1em;
+  float: right;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: black;
+}
+
+.header {
+  width: 100%;
+  background-color: rgb(184, 179, 179);
+}
+
+.header img {
+  max-width: 400px;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: beige;
+  flex-wrap: wrap;
+}
+
+.main-item {
+  flex: 1;
+  padding: 1em;
+  min-width: 400px;
+}
+
+.main-item img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 100%;
+}
+
+@media (min-width: 600px) {
+}
+@media (min-width: 800px) {
+}

@@ -1,0 +1,27 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  background-color: transparent;
+  font-size: 12pt;
+  display: block;
+}
+.contactform {
+  display: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  font-size: 12pt;
+  font-weight: bold;
+}
+#pageheader {
+  display: none;
+}
+img {
+  border-radius: 50%;
+  height: 100px;
+}
