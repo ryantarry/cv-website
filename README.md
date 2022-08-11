@@ -1,2 +1,2 @@
 # cv-website
-blah blah blah
+portfolio and CV website
