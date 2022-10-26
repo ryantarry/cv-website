@@ -7,9 +7,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!--<link rel="stylesheet" media="screen" href="styles.css">-->
-	<link rel="stylesheet" media="screen" href=normalize.css">
-	<link rel="stylesheet" media="screen" href="styles.css">
-	<link rel="stylesheet" media="print" href="print.css" />
+	<link rel="stylesheet" media="screen" href="./normalize.css">
+	<!-- <link rel="stylesheet" media="screen" href="styles.css"> -->
+	<link rel="stylesheet" media="print" href="./print.css" />
+
+	<link rel="stylesheet" href="./styles.css">
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,13 +41,13 @@
 	<!-- Primary Meta Tags -->
 	<title>Ryan Tarry CV</title>
 	<meta name="title" content="Ryan Tarry CV">
-	<meta name="description" content="Thank you for taking the time to look at my CV.">
+	<meta name="description" content="Thank you for taking the time to look at my portfolio.">
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://metatags.io/">
 	<meta property="og:title" content="Ryan Tarry CV">
-	<meta property="og:description" content="Thank you for taking the time to look at my CV.">
+	<meta property="og:description" content="Thank you for taking the time to look at my portfolio.">
 	<meta property="og:image"
 		content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
 
@@ -53,7 +55,7 @@
 	<meta property="twitter:card" content="summary_large_image">
 	<meta property="twitter:url" content="https://metatags.io/">
 	<meta property="twitter:title" content="Ryan Tarry CV">
-	<meta property="twitter:description" content="Thank you for taking the time to look at my CV.">
+	<meta property="twitter:description" content="Thank you for taking the time to look at my Portoflio.">
 	<meta property="twitter:image"
 		content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
 
@@ -61,52 +63,78 @@
 </head>
 
 <body>
-	<div class="container">
-		<header>
-			<p>Ryan Tarry</p>
-			<nav class="nav">
+	<header>
+		<h2>Ryan Tarry</h2>
+		<nav class="nav">
+			<ul>
+				<li><a href="./index.html">Portfolio</a></li>
+				<li><a target="_blank" href="./media/ryan-tarry-cv.pdf">CV</a></li>
+				<li><a href="mailto:ryantarry@gmail.com">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
 
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="">Portfolio</a></li>
-					<li><a href="">CV</a></li>
-					<li><a href="">Contact</a></li>
-				</ul>
-			</nav>
-		</header>
+	<main>
+		<div class="tagline">
+			<h2>Hi, I'm Ryan! </h2>
+			<h1>Fullstack Junior Developer based in the UK.</h1>
+			<p>I bring modern software engineering skills together with significant experience working with web
+				sites to maximise eCommerce, marketing and PR opportunities.</p>
+		</div>
 
-		<main>
-			<div class="tagline">
-				<h2>Hi, I'm Ryan! </h2>
-				<h1>Fullstack Junior Developer based in the UK.</h1>
-				<p>I bring modern software engineering skills together with significant experience working with web
-					sites to maximise eCommerce, marketing and PR opportunities.</p>
+		<div>
+			<h2>My Projects</h2>
+			<div id="portfolio">
+				<div class="project">
+					<h3> Homage website</h3>
+					<p>Clone of the Tesla UK website using HTML/CSS/JavaScript</p>
+					<a target="_blank" href="https://github.com/ryantarry/tesla-clone"><button>Source
+							Code</button></a>
+					<a target="_blank" href="./tesla-clone/index.html"><button>Project</button></a>
+				</div>
+				<div class="project">
+					<h3> Weather App</h3>
+					<p>A React weather API app </p>
+					<a target="_blank" href="https://github.com/ryantarry/weather-app"><button>Source
+							Code</button></a>
+					<a target="_blank" href="https://weather-app-ryantarry.netlify.app/"><button>Project</button></a>
+				</div>
+				<div class="project">
+					<h3> Countdown Timer</h3>
+					<p>React Countdown Timer</p>
+					<a target="_blank" href="https://github.com/ryantarry/countdown-timer"><button>Source
+							Code</button></a>
+					<a target="_blank" href="https://countdown-timer-ryantarry.netlify.app"><button>Project</button></a>
+				</div>
+				<div class="project">
+					<h3> Clipboard Website</h3>
+					<p>A mock application landing page made using HTML/CSS</p>
+					<a target="_blank" href="https://github.com/ryantarry/clipboard-website-ryan"><button>Source
+							Code</button></a>
+					<a target="_blank" href="./clipboard-website-ryan/index.html"><button>Project</button></a>
+				</div>
 			</div>
+		</div>
 
-			<section class="border">
-				<div class="main-item">
+		<div class="CV">
+			<h2>CV</h2>
+			<a target="_blank" href="./media/ryan-tarry-cv.pdf"><button>Download a copy of my CV</button></a>
+		</div>
 
-				</div>
 
-
-				<div class="main-item">
-
-				</div>
-
-	</div>
-	</section>
+		<div class="contact">
+			<h2>Contact</h2>
 	</main>
 
 	<footer class="footer">
 		<ul>
-			<p>Worcestershire, UK</p>
-			<li><a href="tel+07768105344">07768105344</a></li>
-			<li><a href="mailto:ryantarry@gmail.com">ryantarry@gmail.com</a></li>
+			<li><a href="tel+4407768105344">Phone</a></li>
+			<li><a href="mailto:ryantarry@gmail.com">Email</a></li>
 			<li><a id="github-link" href="https://github.com/ryantarry">GitHub</a></li>
+			<li><a href="https://www.linkedin.com/in/ryantarry">LinkedIn</a></li>
 		</ul>
 	</footer>
-	</div>
-	<!--Container div-->
+
 </body>
 
 </html>
